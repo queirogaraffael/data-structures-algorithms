@@ -1,4 +1,4 @@
-package beecrowd.LogicaDeProgramacaoBasica_CondicionaisLacosVariaveis;
+package problems_solving.beecrowd.conditionals_loops;
 
 
 // Leia a hora inicial e a hora final de um jogo.
@@ -26,7 +26,7 @@ import java.util.Scanner;
  *      Class name must be "Main" for your solution to execute
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
-public class TempoDeJogo1046 {
+public class TempoDeJogo_1046 {
 
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);

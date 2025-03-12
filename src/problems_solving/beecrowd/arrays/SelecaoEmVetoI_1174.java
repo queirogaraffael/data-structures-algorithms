@@ -1,4 +1,4 @@
-package beecrowd.EstruturasDeDadosSimples_Listas_Arrays_Dicionarios;
+package problems_solving.beecrowd.arrays;
 
 /*
  * Faça um programa que leia um vetor A[100]. No final, mostre todas as posições
@@ -36,7 +36,7 @@ import java.util.Scanner;
  *      Class name must be "Main" for your solution to execute
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
-public class SelecaoEmVetoI1174 {
+public class SelecaoEmVetoI_1174 {
 
     public static void main(String[] args) throws IOException {
 

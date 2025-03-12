@@ -1,4 +1,4 @@
-package beecrowd.LogicaDeProgramacaoBasica_CondicionaisLacosVariaveis;
+package problems_solving.beecrowd.conditionals_loops;
 
 
 
@@ -30,7 +30,7 @@ import java.util.Scanner;
  *      Class name must be "Main" for your solution to execute
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
-public class CrescenteDescrecente1113 {
+public class CrescenteDescrecente_1113 {
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);

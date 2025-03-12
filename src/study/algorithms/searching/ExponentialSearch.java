@@ -1,4 +1,4 @@
-package estudo;
+package study.algorithms.searching;
 
 import java.util.Arrays;
 

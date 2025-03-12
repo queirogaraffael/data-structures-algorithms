@@ -1,4 +1,4 @@
-package leecode;
+package problems_solving.leetcode.two_pointers;
 
 // Dado um número inteiro x, retorne verdadeiro se x for um palíndromo, e falso caso contrário.
 //
@@ -21,7 +21,7 @@ package leecode;
 // -231 <= x <= 231 - 1
 
 
-public class PolindromeNumber9 {
+public class PolindromeNumber_0009 {
     class Solution {
         public boolean isPalindrome(int x) {
 

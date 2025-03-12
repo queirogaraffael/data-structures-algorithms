@@ -1,4 +1,4 @@
-package beecrowd.LogicaDeProgramacaoBasica_CondicionaisLacosVariaveis;
+package problems_solving.beecrowd.basics;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -30,7 +30,7 @@ import java.util.Scanner;
  *      Class name must be "Main" for your solution to execute
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
-public class ExtremamenteBasico1001 {
+public class ExtremamenteBasico_1001 {
 
     public static void main(String[] args) throws IOException {
 

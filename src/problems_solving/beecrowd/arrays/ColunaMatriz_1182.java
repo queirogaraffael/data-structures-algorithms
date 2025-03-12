@@ -1,4 +1,4 @@
-package beecrowd.EstruturasDeDadosSimples_Listas_Arrays_Dicionarios;
+package problems_solving.beecrowd.arrays;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ import java.util.Scanner;
  *      Class name must be "Main" for your solution to execute
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
-public class ColunaMatriz1182 {
+public class ColunaMatriz_1182 {
 
     public static void main(String[] args) throws IOException {
 

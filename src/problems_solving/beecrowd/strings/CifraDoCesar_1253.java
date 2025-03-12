@@ -1,4 +1,4 @@
-package beecrowd.EstruturasDeDadosSimples_Listas_Arrays_Dicionarios;
+package problems_solving.beecrowd.strings;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -48,7 +48,7 @@ LIPPSASVPH               HELLOWORLD
  *      Class name must be "Main" for your solution to execute
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
-public class CifraDoCesar1253 {
+public class CifraDoCesar_1253 {
 
     public static void main(String[] args) throws IOException {
 

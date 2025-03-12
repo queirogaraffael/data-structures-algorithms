@@ -1,4 +1,4 @@
-package leecode;
+package problems_solving.leetcode.two_pointers;
 /*
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -28,7 +28,7 @@ Constraints:
 Follow-up: Can you come up with an algorithm that is less than O(n^2) time complexity?
 */
 
-public class TwoSum1 {
+public class TwoSum_0001 {
     class Solution {
         public int[] twoSum(int[] nums, int target) {
 

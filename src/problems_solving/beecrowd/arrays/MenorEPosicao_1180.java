@@ -1,4 +1,4 @@
-package beecrowd.EstruturasDeDadosSimples_Listas_Arrays_Dicionarios;
+package problems_solving.beecrowd.arrays;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -37,7 +37,7 @@ Posicao: 4
  *      Class name must be "Main" for your solution to execute
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
-public class MenorEPosicao1180 {
+public class MenorEPosicao_1180 {
 
     public static void main(String[] args) throws IOException {
 
