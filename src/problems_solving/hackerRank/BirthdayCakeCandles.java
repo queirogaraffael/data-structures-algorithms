@@ -1,23 +1,23 @@
 package problems_solving.hackerRank;
 
-import java.util.Collections;
 import java.util.List;
 
 public class BirthdayCakeCandles {
     public static int birthdayCakeCandles(List<Integer> candles) {
 
-        int quantidade = 0;
+        int max = Integer.MIN_VALUE;
+        int count = 0;
 
-        for(int i = 0; i < candles.size(); i++){
-            int frequencia = Collections.frequency(candles, candles.get(i));
-
-            if(frequencia > quantidade){
-                quantidade = frequencia;
-
+        for (int candle : candles) {
+            if (candle > max) {
+                max = candle;
+                count = 1;
+            } else if (candle == max) {
+                count += 1;
             }
         }
 
-        return quantidade;
+        return count;
 
     }
 }
