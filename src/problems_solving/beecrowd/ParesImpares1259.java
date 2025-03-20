@@ -1,9 +1,9 @@
 package problems_solving.beecrowd;
-
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * IMPORTANT:
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *      Class name must be "Main" for your solution to execute
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
-public class ParesImpares {
+public class ParesImpares1259 {
 
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
@@ -34,7 +34,16 @@ public class ParesImpares {
             }
         }
 
+        Collections.sort(pares);
+        Collections.sort(impares, Collections.reverseOrder());
 
+        for(int i = 0; i < pares.size(); i++){
+            System.out.println(pares.get(i));
+        }
+
+        for(int i = 0; i < impares.size(); i++){
+            System.out.println(impares.get(i));
+        }
 
         scanner.close();
 
