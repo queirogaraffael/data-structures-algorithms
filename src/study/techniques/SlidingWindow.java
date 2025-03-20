@@ -1,5 +1,4 @@
-package study.techniques;//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+package study.techniques;
 import java.util.HashMap;
 import java.util.Map;
 
