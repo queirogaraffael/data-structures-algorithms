@@ -30,7 +30,13 @@ Restrições:
 
 public class SlidingWindow {
     public int maximumLengthSubstring(String s) {
-        int l = 0, r = 0, maxLen = 1;
+
+        if(s.isEmpty()) return 0;
+
+        int l = 0;
+        int r = 0;
+        int maxLen = 1;
+
         Map<Character, Integer> counter = new HashMap<>();
 
         counter.put(s.charAt(0), 1);
