@@ -1,4 +1,4 @@
-package problems_solving.leetcode.two_pointers;
+package problems_solving.leetcode;
 
 public class RemoveElement {
 

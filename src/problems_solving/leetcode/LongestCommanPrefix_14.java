@@ -1,4 +1,4 @@
-package problems_solving.leetcode.strings;
+package problems_solving.leetcode;
 
 public class LongestCommanPrefix_14 {
     class Solution {

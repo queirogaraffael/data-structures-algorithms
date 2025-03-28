@@ -1,4 +1,4 @@
-package problems_solving.leetcode.two_pointers;
+package problems_solving.leetcode;
 /*
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 

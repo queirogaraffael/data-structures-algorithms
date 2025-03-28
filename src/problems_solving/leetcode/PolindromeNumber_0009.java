@@ -1,4 +1,4 @@
-package problems_solving.leetcode.two_pointers;
+package problems_solving.leetcode;
 
 // Dado um número inteiro x, retorne verdadeiro se x for um palíndromo, e falso caso contrário.
 //
