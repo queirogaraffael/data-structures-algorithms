@@ -79,8 +79,6 @@ public class OrdenacaoPorTamanho1244 {
         Arrays.sort(frase, Comparator.comparingInt(String::length).reversed());
 
         return String.join(" ", frase);
-
-
     }
 
 }

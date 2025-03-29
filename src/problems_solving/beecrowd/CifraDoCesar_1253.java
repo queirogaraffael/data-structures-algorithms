@@ -1,4 +1,4 @@
-package problems_solving.beecrowd.strings;
+package problems_solving.beecrowd;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -64,7 +64,6 @@ public class CifraDoCesar_1253 {
 
         scanner.nextLine();
 
-
         for(int i = 0; i < numeroInteracoes ; i++){
 
             String[] palavras = scanner.nextLine().split("");
@@ -93,11 +92,8 @@ public class CifraDoCesar_1253 {
         }
 
         for(int i = 0; i < numeroInteracoes ; i++){
-
             System.out.println(palavrasCriptografadas[i]);
-
         }
-
 
         scanner.close();
 

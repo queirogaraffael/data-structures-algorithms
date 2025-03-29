@@ -1,4 +1,4 @@
-package problems_solving.beecrowd.conditionals_loops;
+package problems_solving.beecrowd;
 
 
 // Leia a hora inicial e a hora final de um jogo.
@@ -45,8 +45,6 @@ public class TempoDeJogo_1046 {
         }
 
         System.out.println("O JOGO DUROU " + duracao + " HORA(S)");
-
-
 
         scanner.close();
     }

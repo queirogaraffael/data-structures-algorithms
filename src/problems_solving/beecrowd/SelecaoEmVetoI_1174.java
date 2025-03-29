@@ -1,4 +1,4 @@
-package problems_solving.beecrowd.arrays;
+package problems_solving.beecrowd;
 
 /*
  * Faça um programa que leia um vetor A[100]. No final, mostre todas as posições

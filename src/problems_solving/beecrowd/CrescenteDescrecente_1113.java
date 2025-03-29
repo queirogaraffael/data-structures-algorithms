@@ -1,4 +1,4 @@
-package problems_solving.beecrowd.conditionals_loops;
+package problems_solving.beecrowd;
 
 
 
@@ -38,7 +38,6 @@ public class CrescenteDescrecente_1113 {
         int x = sc.nextInt();
         int y = sc.nextInt();
 
-
         while(x != y){
 
             if(x > y){
@@ -46,7 +45,6 @@ public class CrescenteDescrecente_1113 {
             }else {
                 System.out.println("Crescente");
             }
-
 
             x = sc.nextInt();
             y = sc.nextInt();

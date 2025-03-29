@@ -1,4 +1,4 @@
-package problems_solving.beecrowd.conditionals_loops;
+package problems_solving.beecrowd;
 
 import java.io.IOException;
 import java.util.Scanner;

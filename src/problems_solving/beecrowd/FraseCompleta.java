@@ -80,8 +80,6 @@ public class FraseCompleta {
 
     public static String avaliaFrase(List<String> alfabeto, String frase){
 
-        String resultado = "";
-
         int quantidade = 0;
 
         for(int i = 0; i < alfabeto.size(); i++){

@@ -82,7 +82,6 @@ public class ColecaoPokemon2174 {
 
         System.out.printf("Falta(m) %d pomekon(s).", quantidadeFaltante);
 
-
         scanner.close();
     }
 
