@@ -3,29 +3,25 @@ import java.util.List;
 
 
 public class MiniMaxSum {
-    /*
-     * Complete the 'miniMaxSum' function below.
-     *
-     * The function accepts INTEGER_ARRAY arr as parameter.
-     */
 
     public static void miniMaxSum(List<Integer> arr) {
 
         int menorValor = Integer.MAX_VALUE;
         int maiorValor = Integer.MIN_VALUE;
 
-
         long somaTotal = 0;
 
-        for(int i = 0; i < arr.size(); i++){
-            somaTotal += arr.get(i);
+        for(Integer valor : arr){
+            int valorAtual = valor;
 
-            if(arr.get(i) < menorValor){
-                menorValor = arr.get(i);
+            somaTotal += valorAtual;
+
+            if(valorAtual < menorValor){
+                menorValor = valorAtual;
             }
 
-            if(arr.get(i) > maiorValor){
-                maiorValor = arr.get(i);
+            if(valorAtual > maiorValor){
+                maiorValor = valorAtual;
             }
         }
 

@@ -3,24 +3,17 @@ package problems_solving.hackerRank;
 import java.util.List;
 
 public class GradingStudents {
-    /*
-     * Complete the 'gradingStudents' function below.
-     *
-     * The function is expected to return an INTEGER_ARRAY.
-     * The function accepts INTEGER_ARRAY grades as parameter.
-     */
+
     public static List<Integer> gradingStudents(List<Integer> grades) {
 
-        for(int i = 0; i < grades.size(); i++){
-            if((grades.get(i) >= 38)){
+        for (int i = 0; i < grades.size(); i++) {
 
-                int base = grades.get(i) / 5;
+            int grade = grades.get(i);
 
-                if((grades.get(i) % 5) >= 3){
-                    int novaGrade = (base * 5) + 5;
-                    grades.set(i, novaGrade);
-                }
-
+            if ((grade >= 38) && (grade % 5) >= 3) {
+                int base = grade / 5;
+                int novaGrade = (base * 5) + 5;
+                grades.set(i, novaGrade);
 
             }
         }

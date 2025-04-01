@@ -7,7 +7,6 @@ public class Staircase {
         int numeroEspacoInicial = n - 1;
         int numeroJogoDaVelhaInicial = 1;
 
-
         for(int i = 0; i < n; i++){
 
             String linha = "";
@@ -25,8 +24,6 @@ public class Staircase {
 
             System.out.println(linha);
         }
-
-        // Write your code here
 
     }
 }

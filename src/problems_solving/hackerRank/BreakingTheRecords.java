@@ -4,12 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class BreakingTheRecords {
-    /*
-     * Complete the 'breakingRecords' function below.
-     *
-     * The function is expected to return an INTEGER_ARRAY.
-     * The function accepts INTEGER_ARRAY scores as parameter.
-     */
 
     public static List<Integer> breakingRecords(List<Integer> scores) {
 
@@ -20,14 +14,15 @@ public class BreakingTheRecords {
         int countMax = 0;
 
         for(int i = 1; i < scores.size(); i++){
+            int score = scores.get(i);
 
-            if(scores.get(i) > max){
-                max = scores.get(i);
+            if(score > max){
+                max = score;
                 countMax += 1;
             }
 
-            if(scores.get(i) < min){
-                min = scores.get(i);
+            if(score < min){
+                min = score;
                 countMin += 1;
             }
 
