@@ -9,7 +9,7 @@ import java.util.Scanner;
  *      Class name must be "Main" for your solution to execute
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
-public class ColunaMatriz_1182 {
+public class ColunaNaMatriz1182 {
 
     public static void main(String[] args) throws IOException {
 
@@ -17,36 +17,40 @@ public class ColunaMatriz_1182 {
 
         float[][] matriz = new float[12][12];
 
-        int colunaOperacao = scanner.nextInt();
+        int opcaoColuna = scanner.nextInt();
 
-        char operacao = scanner.next().charAt(0);
+        scanner.nextLine();
 
-        for (int linha = 0; linha < matriz.length; linha++) {
-            for (int coluna = 0; coluna < matriz[0].length; coluna++) {
+        char opcao = scanner.nextLine().charAt(0);
+
+        for(int linha = 0; linha < matriz.length; linha++){
+            for(int coluna = 0; coluna < matriz[0].length; coluna++){
                 matriz[linha][coluna] = scanner.nextFloat();
             }
         }
 
-        if(operacao == 'S'){
-            float resultadoSoma = somarElementosColuna(matriz, colunaOperacao);
-            System.out.printf("%.1f%n", resultadoSoma);
+        if(opcao == 'S'){
+            float soma = somaElementosColunaMatriz(matriz, opcaoColuna);
+            System.out.printf("%.1f%n", soma);
         }else{
-            float resultadoSoma = somarElementosColuna(matriz, colunaOperacao);
-            float media = resultadoSoma/matriz.length;
+            float media = somaElementosColunaMatriz(matriz, opcaoColuna)/ matriz.length;
             System.out.printf("%.1f%n", media);
         }
+
 
         scanner.close();
 
     }
 
-    public static float somarElementosColuna(float[][] matriz, int coluna){
+    public static float somaElementosColunaMatriz(float[][] matriz, int coluna){
         float soma = 0;
+
         for(int linha = 0; linha < matriz.length; linha++){
             soma += matriz[linha][coluna];
         }
 
         return soma;
+
     }
 
 }
