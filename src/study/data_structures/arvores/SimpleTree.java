@@ -1,7 +1,6 @@
 package study.data_structures.arvores;
 
-public class SimpleTree {
-
+class Tree {
     static class NoArvore {
         int valor;
         NoArvore esquerdo, direito;
@@ -52,9 +51,9 @@ public class SimpleTree {
     }
 }
 
-class Main {
-    public void main(String[] args) {
-        SimpleTree.ArvoreBinaria arvore = new SimpleTree.ArvoreBinaria();
+public class SimpleTree {
+    public static void main(String[] args) {
+        Tree.ArvoreBinaria arvore = new Tree.ArvoreBinaria();
         arvore.inserir(5);
         arvore.inserir(3);
         arvore.inserir(7);

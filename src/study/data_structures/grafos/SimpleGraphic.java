@@ -1,7 +1,11 @@
 package study.data_structures.grafos;
-import java.util.*;
 
-public class SimpleGraphic {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+class Graphic {
     static class Grafo {
         private Map<String, List<String>> adjacencia;
 
@@ -30,9 +34,9 @@ public class SimpleGraphic {
     }
 }
 
-class Main {
+public class SimpleGraphic {
     public static void main(String[] args) {
-        SimpleGraphic.Grafo grafo = new SimpleGraphic.Grafo();
+        Graphic.Grafo grafo = new Graphic.Grafo();
         grafo.adicionarVertice("A");
         grafo.adicionarVertice("B");
         grafo.adicionarVertice("C");

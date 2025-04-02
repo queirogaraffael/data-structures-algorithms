@@ -1,7 +1,7 @@
 package study.data_structures.stack;
 import java.util.ArrayDeque;
 
-public class SimpleStack {
+public class SimpleExample {
     public static void main(String args[]) {
         ArrayDeque<Integer> stack = new ArrayDeque<>();
 
