@@ -1,11 +1,11 @@
-# 🧩 Estruturas de Dados e Algoritmos
+# Estruturas de Dados e Algoritmos
 
 Este repositório é um espaço dedicado ao **estudo e prática de Estruturas de Dados e Algoritmos**.  
 O objetivo principal é **consolidar conhecimento** através da resolução de problemas e da implementação de diferentes conceitos fundamentais em ciência da computação.
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 
 O repositório é organizado em duas seções principais para facilitar a navegação:
 
@@ -26,14 +26,14 @@ Dedicado à **implementação de conceitos teóricos**, subdividido em:
 
 ---
 
-## 🚀 Objetivo
+## Objetivo
 
 - **Praticar e reforçar** os fundamentos de algoritmos e estruturas de dados.
 - Servir como um **registro contínuo de aprendizado**, facilitando revisões e melhorias ao longo do tempo.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## Tecnologias e Ferramentas
 
 - Linguagens principais: **Java**.
 - Ambientes e editores: IntelliJ.
